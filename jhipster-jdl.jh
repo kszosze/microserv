@@ -1,0 +1,34 @@
+// an ignored comment
+/** not an ignored comment */
+entity IEAddress {
+    addressline1 String,
+    addressline2 String,
+    summaryline String,
+    organisation String,
+    street String,
+    posttown String,
+    county String,
+    postcode String
+}
+
+entity UKAddress {
+	summaryline String,
+    organisation String,
+    buildingname String,
+    premise String,
+    street String,
+    dependentlocality String,
+    posttown String,
+    county String,
+    postcode String
+}
+
+// Set pagination options
+paginate IEAddress, UKAddress with pagination
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+// Set an angular suffix
+angularSuffix * with microf
