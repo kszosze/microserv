@@ -6,6 +6,6 @@
     "generator-jhipster-swagger-cli": "2.0.5",
     "generator-jhipster-material": "0.0.0",
     "generator-jhipster-ci": "1.0.0",
-    "generator-jhipster": "4.0.0"
+    "generator-jhipster": "6.4.1"
   }
 }
